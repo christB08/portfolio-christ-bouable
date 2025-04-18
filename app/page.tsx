@@ -11,7 +11,7 @@ export default function Home() {
       {/* Header */}
       <header className="sticky top-0 z-10 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
         <div className="container flex h-16 items-center">
-          <div className="mr-4 font-bold">Mon Portfolio</div>
+          <div className="mr-4 font-bold">Christ Bouablé</div>
           <nav className="flex items-center gap-6 text-sm ml-auto">
             <Link href="#about" className="transition-colors hover:text-foreground/80">
               À propos
@@ -60,21 +60,21 @@ export default function Home() {
               <h3 className="text-xl font-bold">Mes liens</h3>
               <div className="grid gap-3">
                 <Link
-                  href="https://github.com/votre-username"
+                  href="https://github.com/christb08"
                   className="flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors"
                 >
                   <Github className="h-5 w-5" />
                   <span>GitHub</span>
                 </Link>
                 <Link
-                  href="https://linkedin.com/in/votre-profil"
+                  href="https://linkedin.com/in/christ-bouable"
                   className="flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors"
                 >
                   <Linkedin className="h-5 w-5" />
                   <span>LinkedIn</span>
                 </Link>
                 <Link
-                  href="https://votre-site.com"
+                  href="https://email-finder-web.netlify.app/"
                   className="flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors"
                 >
                   <ExternalLink className="h-5 w-5" />
@@ -185,7 +185,7 @@ export default function Home() {
       <footer className="border-t py-6 md:py-0">
         <div className="container flex flex-col items-center justify-between gap-4 md:h-16 md:flex-row">
           <p className="text-sm text-muted-foreground">
-            © {new Date().getFullYear()} Mon Portfolio. Tous droits réservés.
+            © {new Date().getFullYear()} Christ Bouablé. Tous droits réservés.
           </p>
           <div className="flex items-center gap-2">
             <Phone className="h-4 w-4" />
