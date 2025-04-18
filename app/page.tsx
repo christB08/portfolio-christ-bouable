@@ -95,7 +95,7 @@ export default function Home() {
               <Card>
                 <CardContent className="p-0">
                   <Image
-                    src="/placeholder.svg?height=300&width=500"
+                    src="/infrasecu.png?height=300&width=500"
                     alt="Infrastructure réseau"
                     width={500}
                     height={300}
