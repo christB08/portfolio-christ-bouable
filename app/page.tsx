@@ -166,8 +166,8 @@ export default function Home() {
             <div className="mt-6 flex flex-col gap-4">
               <div className="flex items-center gap-2 justify-center">
                 <Mail className="h-5 w-5" />
-                <Link href="mailto:votre-email@example.com" className="hover:underline">
-                  votre-email@example.com
+                <Link href="mailto:cbouable05@gmail.com" className="hover:underline">
+                  cbouable05@gmail.com
                 </Link>
               </div>
               <div className="flex items-center gap-2 justify-center">
